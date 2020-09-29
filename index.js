@@ -32,6 +32,6 @@ app.get('/', (req, res) => {
 
 
 //arrancar servidor
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, () => {
     console.log(`el servidor está funcionando desde el puerto ${port}`)
 })
