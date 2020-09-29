@@ -4,7 +4,7 @@
   "description": "MERN API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node .",
     "dev": "nodemon ."
   },
   "author": "Lucas Sebastian Martinez",
@@ -19,6 +19,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.3"
+    "mongoose": "^5.10.3",
+    "serve": "^11.3.2"
   }
 }
