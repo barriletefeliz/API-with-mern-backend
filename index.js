@@ -18,18 +18,15 @@ app.use(express.json({ extended: true}));
 const port = process.env.PORT || 4000;
 
 //definición de las rutas
-app.use('/api/users', require('./routes/users'));
-app.use('/api/auth', require('./routes/auth'));
-app.use('/api/projects', require('./routes/projects'));
-app.use('/api/tasks', require('./routes/tasks'));
+app.use('/api/users', require('./routes/users.js'));
+app.use('/api/auth', require('./routes/auth.js'));
+app.use('/api/projects', require('./routes/projects.js'));
+app.use('/api/tasks', require('./routes/tasks.js'));
 
 //definición de pag principal
 app.get('/', (req, res) => {
-    res.send('funcionando...')
+    res.send('funcionando...');
 });  
-
-
-
 
 //arrancar servidor
 app.listen(port, '0.0.0.0', () => {
