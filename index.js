@@ -23,10 +23,12 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/projects', require('./routes/projects'));
 app.use('/api/tasks', require('./routes/tasks'));
 
-//definición de pag principal
+/*definición de pag principal
 app.get('/', (req, res) => {
     res.send('funcionando...')
 });  
+
+*/
 
 
 //arrancar servidor
