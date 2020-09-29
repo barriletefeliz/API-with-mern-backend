@@ -5,7 +5,7 @@
   "main": "index.js",
 
   "scripts": {
-    "start": "serve -s build",
+    "start": "node index.js",
     "dev": "nodemon ."
   },
   "author": "Lucas Sebastian Martinez",
